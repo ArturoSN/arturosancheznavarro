@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type='image/x-icon' href='img/favicon.ico' />
 
-        <title>About | Arturo Sánchez Navarro</title>
+        <title>Books | Urban Time Press</title>
 
         <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
               rel="stylesheet"
@@ -15,6 +15,9 @@
         <link href="css/bootstrap4-growth.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
 
+        <!-- slider -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script><script src="sss/sss.min.js"></script><link rel="stylesheet" href="sss/sss.css" type="text/css" media="all"><script>jQuery(function($) {$('.slider').sss();});</script>
+
     </head>
 
     <body>
@@ -22,7 +25,7 @@
         <!-- navbar -->
         <nav class="navbar fixed-top navbar-expand-md navbar-light">
 
-            <!-- top left icon -->
+            <!-- top left icon --> 
             <a class="navbar-brand" href="index.html">
                 <img src="img/EX LIBRISN ASN V03.png" width="50" alt="">
             </a>
@@ -40,8 +43,8 @@
             </button>
             <!-- end responsive collapsable menu placeholder -->
 
-            <!-- menu items -->
-            <div class="collapse navbar-collapse" id="navbarNav">
+             <!-- menu items -->
+             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link p-3" href="index.html">Home</a>
@@ -65,34 +68,45 @@
         </nav>
         <!-- end navbar -->
 
+        <!-- catalog -->
+        <div class="container my-5">
+            <!-- accordion -->
+            <div id="accordion">
+                <div class="row mb-5">
+                    <!-- card deck -->
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top" src="img/mural-comex.png" alt="El Legado del Terror">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title"><b>El Legado del Terror</b><br>Universal Pictures México</h5>
+                                <p class="card-text">2018 - on progress</p>
+                                </p>
+                                <button class="btn btn-primary bt-lg collapsed mt-auto" data-toggle="collapse" data-target="#book1" aria-expanded="false" aria-controls="book1">
+                                    Explore
+                                </button>
+                                <!-- <p class="card-text text-center"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end card deck -->
 
-        <!-- slogan banner -->
-        <div class="jumbotron jumbotron-fluid">
-            <h5 class="w-50 text-center" style="margin: 0px auto;">
-                Bachelor in Urban Planning at UNAM, Mexico City.
-                </br>
-                Erasmus student at Politecnico di Torino, Italy.
-                </p>
-                Currently in charge of the Infrastructure Studies Dpt. at the Ministry of Mobility in Mexico City.
-                </p>
-                Freelance Illustrator and UI Designer.
-                </br>
-                Founder of <a href="https://urbantimespress.com">Urban Times Press</a>, and ocassional writer at <a href="https://chocalas.mx/autor/arturo">Chócalas.</a>.
-            </h5>
-        </div>
-        <!-- end slogan Banner -->
+                    <!-- collapsable entries -->
+                    <div id="book1" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <p class="card-text">Designed as a collective effort to endure Mexico's cinematographic patrimony, "El Legado del Terror" dives into popular horror tales, depicting its most iconic characters ranging from the Golden Age classics and up to the latest scary monsters and super creeps. </p>
+                            <p><b>Format:</b> Digital illustrations / Photomontage <br><b> Tools:</b> Adobe Illustrator + Adobe Photoshop<br><b> Size: 30 m. x 9 m. (98.4 ft. x 29.5 ft.)</b> Adobe Illustrator + Adobe Photoshop<br><b> Client:</b> Universal Pictures México<br>Coyoacán, Mexico City <br></p>
+                            <p>
+                        </div>
 
-        <!-- book banner -->
-        <div class="about-book-banner">
-        </div>
-        <!-- end book Banner -->
-
-        <!-- press banner -->
-        <div class="about-press-banner">
-        </div>
-        <!-- end press banner -->
+                        <div class="slider">
+                            <img src="img/Mockup Cantantes Posters (1-8)-min.jpg" /><img src="img/Mockup Cantantes Posters (2-8)-min.jpg" /><img src="img/Mockup Cantantes Posters (3-8)-min.jpg" /><img src="img/Mockup Cantantes Posters (4-8)-min.jpg" /><img src="img/Mockup Cantantes Posters (5-8)-min.jpg" /><img src="img/Mockup Cantantes Posters (6-8)-min.jpg" /><img src="img/Mockup Cantantes Posters (7-8)-min.jpg" /><img src="img/Mockup Cantantes Posters (8-8)-min.jpg" /></span></div>
+                                          
+                    </div>
+                    <!-- end collapsable entries -->
+                </div>
 
 
+                
         <!-- footer -->
         <footer class="page-footer font-small py-5">
 
@@ -140,6 +154,5 @@
                 integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
                 crossorigin="anonymous">
         </script>
-
     </body>
 </html>
